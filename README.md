@@ -4,6 +4,8 @@
 
 # TikTok Video Automation
 
+[View the live website](https://postly-tiktok-live.vercel.app)
+
 Post Video Automation helps users connect their TikTok accounts and manage video publishing workflows through TikTok's official APIs.
 
 ## Live deployment
