@@ -19,10 +19,10 @@ Before real publishing works, configure these Vercel environment variables:
 - `TIKTOK_REDIRECT_URI`
 - `SESSION_SECRET`
 
-Set `TIKTOK_REDIRECT_URI` to the exact HTTPS callback registered in the TikTok developer app, for example:
+Register this exact HTTPS callback in the TikTok developer app and set the same value as `TIKTOK_REDIRECT_URI`:
 
 ```text
-https://your-project.vercel.app/api/tiktok/callback
+https://postly-tiktok-live.vercel.app/api/tiktok/callback
 ```
 
 Generate `SESSION_SECRET` with:
