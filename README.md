@@ -4,6 +4,8 @@
 
 # TikTok Video Automation
 
+[View the live website](https://cybok902.github.io/Post-Video-automation-main/)
+
 Post Video Automation helps users connect their TikTok accounts and manage video publishing workflows through TikTok's official APIs.
 
 ## Features
