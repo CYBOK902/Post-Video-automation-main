@@ -1,0 +1,9 @@
+{
+  "name": "postly-tiktok-video-automation",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "node scripts/build-check.js"
+  }
+}

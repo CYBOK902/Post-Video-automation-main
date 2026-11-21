@@ -27,7 +27,7 @@
           <a href="#how-it-works">How it works</a>
           <a href="#security">Security</a>
         </nav>
-        <a class="button button-small button-outline" href="mailto:sanjusah905@gmail.com">Contact</a>
+        <button class="button button-small button-outline" type="button" id="tiktok-login">Connect TikTok</button>
       </div>
     </header>
 
@@ -144,13 +144,24 @@
             <div class="panel-content">
               <div class="upload-preview">
                 <div class="upload-play" aria-hidden="true">▶</div>
-                <div class="upload-info"><strong>product-demo.mp4</strong><span>24 seconds · 1080p</span></div>
+                <div class="upload-info"><strong>Public video URL</strong><span>HTTPS file hosted on a public server</span></div>
               </div>
-              <label>Caption</label>
-              <div class="caption-box">Meet the simplest way to plan and publish your next TikTok video.</div>
-              <div class="setting-row"><span>Account</span><strong>@creator</strong></div>
-              <div class="setting-row"><span>Visibility</span><strong>Public</strong></div>
+              <label for="video-url">Video URL</label>
+              <input class="form-field" id="video-url" type="url" placeholder="https://example.com/video.mp4">
+              <label for="video-caption">Caption</label>
+              <textarea class="form-field caption-box" id="video-caption" maxlength="2200" rows="3">Meet the simplest way to plan and publish your next TikTok video.</textarea>
+              <div class="setting-row"><span>Account</span><strong id="connected-account">Not connected</strong></div>
+              <div class="setting-row">
+                <label for="visibility">Visibility</label>
+                <select class="form-select" id="visibility">
+                  <option value="PUBLIC_TO_EVERYONE">Public</option>
+                  <option value="MUTUAL_FOLLOW_FRIENDS">Followers and friends</option>
+                  <option value="FOLLOWER_OF_CREATOR">Followers</option>
+                  <option value="SELF_ONLY">Only me</option>
+                </select>
+              </div>
               <button class="button button-primary button-full" type="button" id="publish-demo">Publish to TikTok <span aria-hidden="true">→</span></button>
+              <p class="publish-result" id="publish-result" role="status" aria-live="polite"></p>
             </div>
           </div>
         </div>

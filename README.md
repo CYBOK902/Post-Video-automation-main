@@ -4,9 +4,36 @@
 
 # TikTok Video Automation
 
-[View the live website](https://cybok902.github.io/Post-Video-automation-main/)
-
 Post Video Automation helps users connect their TikTok accounts and manage video publishing workflows through TikTok's official APIs.
+
+## Live deployment
+
+The application is deployed on Vercel and uses serverless API routes for TikTok Login Kit OAuth and Content Posting API requests.
+
+Before real publishing works, configure these Vercel environment variables:
+
+- `TIKTOK_CLIENT_KEY`
+- `TIKTOK_CLIENT_SECRET`
+- `TIKTOK_REDIRECT_URI`
+- `SESSION_SECRET`
+
+Set `TIKTOK_REDIRECT_URI` to the exact HTTPS callback registered in the TikTok developer app, for example:
+
+```text
+https://your-project.vercel.app/api/tiktok/callback
+```
+
+Generate `SESSION_SECRET` with:
+
+```bash
+openssl rand -base64 32
+```
+
+Run locally with:
+
+```bash
+npx vercel dev
+```
 
 ## Features
 
