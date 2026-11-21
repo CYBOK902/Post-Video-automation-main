@@ -19,7 +19,6 @@ Our platform is designed to:
 - Connect TikTok accounts through TikTok Login Kit
 - Upload and manage video content
 - Prepare video captions and publishing settings
-- Schedule video publishing where supported
 - Publish videos using TikTok's official Content Posting API
 
 Users authenticate through TikTok Login Kit and authorize the permissions displayed during TikTok's authorization process. After connecting an account, users may select or upload video content, prepare captions, configure publishing settings, and initiate publishing from the website.
@@ -48,7 +47,7 @@ We are not affiliated with, endorsed by, or officially associated with TikTok or
 
 ## 5. Video Publishing
 
-Our platform may provide video uploading, scheduling, and publishing functionality.
+Our platform may provide video uploading and publishing functionality.
 
 Publishing is subject to TikTok API availability, account eligibility, platform restrictions, user permissions, and TikTok's publishing requirements.
 

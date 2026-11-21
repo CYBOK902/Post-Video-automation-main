@@ -26,7 +26,7 @@ Depending on the features you use, we may process:
 
 - Videos uploaded by users
 - Video captions and descriptions
-- Publishing preferences and scheduling information
+- Publishing preferences
 - Publishing status
 
 ### Technical information
@@ -43,7 +43,6 @@ We use information only as necessary to:
 - Authenticate users
 - Manage uploaded videos
 - Process video publishing requests
-- Provide scheduling functionality where available
 - Monitor application performance and resolve technical problems
 - Maintain application security
 

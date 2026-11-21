@@ -42,7 +42,7 @@ npx vercel dev
 - TikTok account authentication through TikTok Login Kit
 - Video upload and content management
 - Video caption and publishing settings
-- Scheduled publishing where supported
+- Direct video publishing
 - Official TikTok Content Posting API integration
 
 ## How It Works

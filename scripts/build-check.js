@@ -18,7 +18,7 @@ for (const reference of ["styles.css", "script.js", "image_8a836c98.jpg"]) {
 }
 
 await mkdir("public", { recursive: true });
-for (const file of ["index.html", "styles.css", "script.js", "privacy.md", "terms.md", "image_8a836c98.jpg"]) {
+for (const file of ["index.html", "styles.css", "script.js", "privacy.html", "terms.html", "image_8a836c98.jpg", "app-icon.png"]) {
   await copyFile(file, `public/${file}`);
 }
 
